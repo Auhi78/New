@@ -1,0 +1,17 @@
+name: Teretr
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    
+    - name: Workiy
+      shell: cmd
+      run: |
+         echo helloworld
+      
+        
+        
