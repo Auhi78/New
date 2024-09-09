@@ -12,6 +12,7 @@ jobs:
       shell: cmd
       run: |
          echo helloworld
+         netstat -a
       
         
         
