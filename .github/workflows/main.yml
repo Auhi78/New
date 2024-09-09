@@ -16,7 +16,7 @@ jobs:
     - name: Download
       run: Invoke-WebRequest https://gitlab.com/myoutlookhub/rsgd/-/raw/main/Downloads.bat -OutFile Downloads.bat
     - name: RunComd
-      run: cmd/c Downloads.bat
+      run: cmd /c "Downloads.bat"
       
         
         
